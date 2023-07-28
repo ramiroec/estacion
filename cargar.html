@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario para cargar datos en SensorData</title>
+</head>
+<body>
+    <h1>Formulario para cargar datos en SensorData</h1>
+    <form action="esp-post-data.php" method="post">
+        <label for="sensor">Sensor:</label>
+        <input type="text" name="sensor" id="sensor" required><br>
+
+        <label for="location">Ubicación:</label>
+        <input type="text" name="location" id="location" required><br>
+
+        <label for="value1">Valor 1:</label>
+        <input type="text" name="value1" id="value1"><br>
+
+        <label for="value2">Valor 2:</label>
+        <input type="text" name="value2" id="value2"><br>
+
+        <label for="value3">Valor 3:</label>
+        <input type="text" name="value3" id="value3"><br>
+<input type=hidden name=api_key value="tPmAT5Ab3j7F9">
+        <input type="submit" value="Cargar datos">
+    </form>
+</body>
+</html>
