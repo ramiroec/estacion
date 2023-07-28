@@ -39,6 +39,8 @@
     }
     $conn->close();
   }
+
+
   
   function getAllReadings($limit) {
     global $servername, $username, $password, $dbname;
